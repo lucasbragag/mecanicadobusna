@@ -1,7 +1,6 @@
-@charset "UTF-8" ;
+@charset "UTF-8";
 
 /* Configurações Gerais */ /* Mobile First*/
-
 
 /*
 Paletas de cores
@@ -9,172 +8,167 @@ Amarelo: #ffa901
 */
 
 * {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
-body, html {
-    color: white;
-    background-color: black;
-    height: 100vh;
-    width: 100vw;
+body,
+html {
+  color: white;
+  background-color: black;
+  height: 100vh;
+  width: 100vw;
 }
 
 header img#logo {
-    display: block;
-    width: 200px;
-    padding: 20px;
-    left: 0;
-    right: 0;
-    margin: auto;
+  display: block;
+  width: 200px;
+  padding: 20px;
+  left: 0;
+  right: 0;
+  margin: auto;
 }
 
 header {
-    position: relative;
-    z-index: 1;
+  position: relative;
+  z-index: 1;
 }
 
 header > h1 {
-    color: white;
-    font-size: 1.6em;
-    text-align: center;
-    padding: 10px;
-    padding-bottom: 20px;
+  color: white;
+  font-size: 1.6em;
+  text-align: center;
+  padding: 10px;
+  padding-bottom: 20px;
 }
 
-menu {
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    width: 100vw;
-    padding-bottom: 20px;
+nav {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  padding-bottom: 20px;
 }
 
-menu > ul > li {
-    padding: 10px;
-    background-color: rgb(19, 18, 18);
-    list-style: none;
-    display: inline-block;
-    margin: auto;
-    border-radius: 8px;
+nav > ul > li {
+  padding: 10px;
+  background-color: rgb(19, 18, 18);
+  list-style: none;
+  display: inline-block;
+  margin: auto;
+  border-radius: 8px;
 }
 
-menu a {
-    color: white;
-    text-decoration: none;
+nav a {
+  color: white;
+  text-decoration: none;
 }
 
-menu > ul > li:hover {
-    background-color: #ffa901;
+nav > ul > li:hover {
+  background-color: #ffa901;
 }
 
 main {
-    position: relative;
-    height: 920px;
-    width: 94vw;
-    background-color: white;
-    color: black;
-    padding: 20px;
-    border-radius: 10px;
-    max-width: 600px;
-    margin: auto;
-
+  position: relative;
+  height: 920px;
+  width: 94vw;
+  background-color: white;
+  color: black;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: auto;
 }
 
-
 main h1 {
-    font-size: 1.5em;
-    padding-bottom: 20px;
+  font-size: 1.5em;
+  padding-bottom: 20px;
 }
 
 main h2 {
-    font-size: 1.3em;
+  font-size: 1.3em;
 }
 
 main h3 {
-    font-size: 1.1em;
+  font-size: 1.1em;
 }
 
 main p {
-    font-size: 1em;
-    text-align: justify;
-    text-indent: 20px;
-    margin-bottom: 10px;
+  font-size: 1em;
+  text-align: justify;
+  text-indent: 20px;
+  margin-bottom: 10px;
 }
 
-
-
 main ul#servicos {
-    padding-left: 40px;
+  padding-left: 40px;
 }
 
 main li {
-    padding-bottom: 4px;
+  padding-bottom: 4px;
 }
 
 article#endereco h2 {
-    padding: 10px 0px;
+  padding: 10px 0px;
 }
 
 article#endereco p {
-    padding-top: 8px;
-    font-size: 1em;
-    text-indent: 20px;
+  padding-top: 8px;
+  font-size: 1em;
+  text-indent: 20px;
 }
 
 article#endereco a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 article#endereco a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 article#horario h2 {
-    padding: 10px 0px;
+  padding: 10px 0px;
 }
 
 iframe#mapa {
-    display: block;
-    padding: 10px;
-    padding-top: 20px;
-    margin: 0 auto;
+  display: block;
+  padding: 10px;
+  padding-top: 20px;
+  margin: 0 auto;
 }
 
 article#redes-sociais h2 {
-    padding-top: 10px;
+  padding-top: 10px;
 }
 
 article#redes-sociais li {
-    list-style-type: none;
-    display: inline-block;
-
+  list-style-type: none;
+  display: inline-block;
 }
 
 article#redes-sociais ul {
-    text-align: left;
+  text-align: left;
 }
 
 .redes-sociais {
-    width: 30px;
-    margin: 7px;
-    border-radius: 20px;
-    box-sizing: border-box;
+  width: 30px;
+  margin: 7px;
+  border-radius: 20px;
+  box-sizing: border-box;
 }
 
 .redes-sociais:hover {
-    border: 1px solid rgba(0, 0, 0, 0.637);
-    transform: translate(2px, 2px);
-    box-shadow: 1px 1px 9px rgba(0, 0, 0, 0.719);
-    transition: transform 0.3s, border 0.4s;
+  border: 1px solid rgba(0, 0, 0, 0.637);
+  transform: translate(2px, 2px);
+  box-shadow: 1px 1px 9px rgba(0, 0, 0, 0.719);
+  transition: transform 0.3s, border 0.4s;
 }
 
-
 footer {
-    padding: 10px;
-    text-align: center;
-    font-size: 0.7em;
+  padding: 10px;
+  text-align: center;
+  font-size: 0.7em;
 }
