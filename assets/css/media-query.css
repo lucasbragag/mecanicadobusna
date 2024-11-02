@@ -1,37 +1,41 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
-    /* Tablet */
+  /* Tablet */
 
-    main {
-        height: 950px;
-    }
+  main {
+    min-height: 950px;
+  }
 
-    article#endereco p {
-        text-align: left;
-    }
+  article#endereco p {
+    text-align: left;
+  }
 
-    iframe#mapa {
-        width: 450px;
-        height: 320px;
-    }
-
+  iframe#mapa {
+    width: 80%;
+    max-width: 400px;
+    aspect-ratio: 16 / 9;
+    margin: 0 auto;
+  }
 }
 
-
 @media screen and (min-width: 992px) {
-    /* Telas maniores*/
+  /* Telas maniores*/
 
-    main {
-        height: 1050px;
-    }
+  main {
+    min-height: 1050px;
+  }
 
-    article#endereco p {
-        text-align: left;
-    }
+  article#endereco p {
+    text-align: left;
+  }
 
-    iframe#mapa {
-        width: 550px;
-        height: 420px;
-    }
+  iframe#mapa {
+    width: 90%;
+    max-width: 550px;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    margin: 0 auto;
+    display: block;
+  }
 }
