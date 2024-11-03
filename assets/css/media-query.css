@@ -16,7 +16,7 @@
   /* Tablet */
 
   main {
-    min-height: 950px;
+    height: auto;
   }
 
   article#endereco p {
