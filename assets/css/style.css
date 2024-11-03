@@ -79,6 +79,7 @@ nav > ul > li:hover {
 main {
   position: relative;
   width: 94vw;
+  height: auto;
   background-color: white;
   color: black;
   padding: 20px;
@@ -170,6 +171,14 @@ article#redes-sociais ul {
   transform: translate(2px, 2px);
   box-shadow: 1px 1px 9px rgba(0, 0, 0, 0.719);
   transition: transform 0.3s, border 0.4s;
+}
+
+.img_cambio > img {
+  width: 320px;
+  position: static;
+  display: block;
+  padding-top: 15px;
+  margin: auto;
 }
 
 footer {

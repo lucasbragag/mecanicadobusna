@@ -20,10 +20,10 @@
 }
 
 @media screen and (min-width: 992px) {
-  /* Telas maniores*/
+  /* Telas maiores*/
 
   main {
-    min-height: 1050px;
+    height: auto;
   }
 
   article#endereco p {
